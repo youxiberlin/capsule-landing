@@ -32,7 +32,7 @@ header > div {
 }
 
 .second {
-  height: 70vh;
+  /* height: 70vh; */
   background-image: url(../images/bg_capsule_amplify.jpg);
   background-repeat: no-repeat;
   background-position: center;
