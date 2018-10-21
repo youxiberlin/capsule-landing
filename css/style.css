@@ -45,11 +45,32 @@ header > div {
   padding-top: 15vh;
 }
 
-.second-content > h2{
+.second-content > h2, .third-content > h2{
   font-size: 2.7rem;
 }
 
-.second-content > h5{
+.second-content > h5, .third-content > h5{
   font-size: 1rem;
   line-height: 1.8rem;
+}
+
+.third {
+  height: 70vh;
+}
+
+footer {
+  height: 10vh;
+  font-size: .8rem;
+  background: rgb(17, 17, 17);
+  color: white;
+}
+
+footer > a:link ,footer > a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+footer > a:hover, footer > a:active {
+  text-decoration: underline;
+  color: white;  
 }
